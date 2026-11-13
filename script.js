@@ -1,5 +1,5 @@
 (function(){
-var PHONE='966582775813',$=function(s,c){return(c||document).querySelectorAll(s)};
+var PHONE='966553257487',$=function(s,c){return(c||document).querySelectorAll(s)};
 $('[data-wa]').forEach(function(a){a.href='https://wa.me/'+PHONE+'?text='+encodeURIComponent('السلام عليكم، '+a.getAttribute('data-wa'));a.target='_blank';a.rel='noopener noreferrer';});
 var b=document.getElementById('burger'),n=document.getElementById('nav'),h=document.querySelector('.hdr'),p=document.getElementById('progress');
 function tog(o){n.classList.toggle('open',o);b.setAttribute('aria-expanded',o);}
@@ -19,3 +19,4 @@ if(!rm&&matchMedia('(hover:hover)').matches){$('.tilt').forEach(function(el){
     el.style.transform='perspective(900px) rotateX('+((y/r.height-.5)*-6)+'deg) rotateY('+((x/r.width-.5)*6)+'deg) translateY(-6px)';});
   el.addEventListener('mouseleave',function(){el.style.transform='';});});}
 })();
+ 
